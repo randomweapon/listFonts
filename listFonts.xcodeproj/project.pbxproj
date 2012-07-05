@@ -15,6 +15,8 @@
 		762B599415A5371000B5B25D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 762B599315A5371000B5B25D /* AppDelegate.m */; };
 		762B599715A5371000B5B25D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762B599615A5371000B5B25D /* ViewController.m */; };
 		762B599A15A5371000B5B25D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 762B599815A5371000B5B25D /* ViewController.xib */; };
+		762B59A615A542B600B5B25D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 762B59A515A542B600B5B25D /* icon.png */; };
+		762B59AA15A542D900B5B25D /* icon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 762B59A915A542D900B5B25D /* icon@x2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		762B598315A5371000B5B25D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		762B598515A5371000B5B25D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		762B598715A5371000B5B25D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		762B598B15A5371000B5B25D /* listFonts-Info.plist */ = {isa = PBXFileReference; path = "listFonts-Info.plist"; sourceTree = "<group>"; };
+		762B598B15A5371000B5B25D /* listFonts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "listFonts-Info.plist"; sourceTree = "<group>"; };
 		762B598D15A5371000B5B25D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		762B598F15A5371000B5B25D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		762B599115A5371000B5B25D /* listFonts-Prefix.pch */ = {isa = PBXFileReference; path = "listFonts-Prefix.pch"; sourceTree = "<group>"; };
-		762B599215A5371000B5B25D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		762B599115A5371000B5B25D /* listFonts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "listFonts-Prefix.pch"; sourceTree = "<group>"; };
+		762B599215A5371000B5B25D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		762B599315A5371000B5B25D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		762B599515A5371000B5B25D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		762B599515A5371000B5B25D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		762B599615A5371000B5B25D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		762B599915A5371000B5B25D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		762B59A515A542B600B5B25D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		762B59A915A542D900B5B25D /* icon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@x2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		762B597415A5371000B5B25D = {
 			isa = PBXGroup;
 			children = (
+				762B59A915A542D900B5B25D /* icon@x2.png */,
+				762B59A515A542B600B5B25D /* icon.png */,
 				762B598915A5371000B5B25D /* listFonts */,
 				762B598215A5371000B5B25D /* Frameworks */,
 				762B598015A5371000B5B25D /* Products */,
@@ -151,6 +157,8 @@
 			files = (
 				762B598E15A5371000B5B25D /* InfoPlist.strings in Resources */,
 				762B599A15A5371000B5B25D /* ViewController.xib in Resources */,
+				762B59A615A542B600B5B25D /* icon.png in Resources */,
+				762B59AA15A542D900B5B25D /* icon@x2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
